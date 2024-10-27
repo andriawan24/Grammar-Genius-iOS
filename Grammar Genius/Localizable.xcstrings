@@ -1,0 +1,141 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%lld / 100" : {
+
+    },
+    "Empty Text" : {
+
+    },
+    "Generating result..." : {
+
+    },
+    "Grammar Check" : {
+
+    },
+    "hint_input" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter the text you want to check..."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan teks yang ingin kamu cek…"
+          }
+        }
+      }
+    },
+    "label_check" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cek"
+          }
+        }
+      }
+    },
+    "label_fix" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fix"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perbaiki"
+          }
+        }
+      }
+    },
+    "label_grammar_option" : {
+
+    },
+    "label_grammar_options" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your result"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih metode"
+          }
+        }
+      }
+    },
+    "label_input" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INPUT"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INPUT"
+          }
+        }
+      }
+    },
+    "label_result" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RESULT"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HASIL"
+          }
+        }
+      }
+    },
+    "Ok" : {
+
+    },
+    "Please enter some text to check." : {
+
+    },
+    "Submit" : {
+
+    },
+    "Text Copied!" : {
+
+    },
+    "Type text to check" : {
+
+    }
+  },
+  "version" : "1.0"
+}
