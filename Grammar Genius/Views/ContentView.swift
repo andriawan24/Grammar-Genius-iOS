@@ -11,6 +11,7 @@ import UniformTypeIdentifiers
 
 struct ContentView: View {
     
+    @Environment(\.colorScheme) var colorScheme
     @ObservedObject private var grammarChecker = GrammarChecker.shared
     @State private var showEmptyTextDialog: Bool = false
     @State private var showCopiedDialog: Bool = false
@@ -67,7 +68,9 @@ struct ContentView: View {
                         }
                         .frame(minWidth: 200, maxWidth: .infinity)
                         .padding()
-                        .background(Color(rgb: 0xFFEEEEEF))
+                        .background(
+                            colorScheme == .dark ? Color(rgb: 0xFF373A40) : Color(rgb: 0xFFEEEEEF)
+                        )
                         .clipShape(RoundedRectangle(cornerRadius: 8))
                         
                         if grammarChecker.isLoading {
@@ -115,7 +118,9 @@ struct ContentView: View {
                             }
                             .frame(minWidth: 200, maxWidth: .infinity)
                             .padding()
-                            .background(Color(rgb: 0xFFEEEEEF))
+                            .background(
+                                colorScheme == .dark ? .clear : Color(rgb: 0xFFEEEEEF)
+                            )
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                         }
                     }

@@ -12,7 +12,7 @@ struct GrammarCheckShortcuts: AppShortcutsProvider {
         AppShortcut(
             intent: GrammarCheckerAppIntent(),
             phrases: [
-                "Check a grammar on \(.applicationName)",
+                "Check my grammar on \(.applicationName)",
                 "Check my grammar"
             ],
             shortTitle: "Grammar Check",
