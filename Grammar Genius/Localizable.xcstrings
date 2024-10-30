@@ -7,13 +7,16 @@
     "%lld / 100" : {
 
     },
+    "Check Grammar" : {
+
+    },
     "Empty Text" : {
 
     },
-    "Generating result..." : {
+    "Fix Grammar" : {
 
     },
-    "Grammar Check" : {
+    "Generating result..." : {
 
     },
     "hint_input" : {

@@ -8,15 +8,24 @@
 import AppIntents
 
 struct GrammarCheckShortcuts: AppShortcutsProvider {
-    @AppShortcutsBuilder static var appShortcuts: [AppShortcut] {
+    static var appShortcuts: [AppShortcut] = [
         AppShortcut(
             intent: GrammarCheckerAppIntent(),
             phrases: [
                 "Check my grammar on \(.applicationName)",
                 "Check my grammar"
             ],
-            shortTitle: "Grammar Check",
+            shortTitle: "Check Grammar",
             systemImageName: "magnifyingglass"
+        ),
+        AppShortcut(
+            intent: GrammarCheckerAppIntent(),
+            phrases: [
+                "Fix my grammar on \(.applicationName)",
+                "Fix my grammar"
+            ],
+            shortTitle: "Fix Grammar",
+            systemImageName: "gear"
         )
-    }
+    ]
 }

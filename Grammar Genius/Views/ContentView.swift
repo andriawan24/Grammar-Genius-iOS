@@ -119,7 +119,7 @@ struct ContentView: View {
                             .frame(minWidth: 200, maxWidth: .infinity)
                             .padding()
                             .background(
-                                colorScheme == .dark ? .clear : Color(rgb: 0xFFEEEEEF)
+                                colorScheme == .dark ? Color(rgb: 0xFF373A40) : Color(rgb: 0xFFEEEEEF)
                             )
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                         }
